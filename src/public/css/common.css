@@ -1,0 +1,44 @@
+html {
+    background-color: #f2f2f2;
+}
+
+.header {
+    background-color: #fff;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    padding: 25px 60px;
+}
+
+.header__logo {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 32px;
+}
+
+.footer {
+    background-color: #fff;
+}
+
+.header__wrapper {
+    margin: 0 auto;
+    padding: 10px auto;
+}
+
+.footer{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer__logo {
+    margin: 15px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}

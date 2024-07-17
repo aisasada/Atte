@@ -1,0 +1,61 @@
+.header-nav {
+    display: flex;
+}
+
+.header-nav__item {
+    margin: 0 0 0 50px;
+}
+
+.header-nav__link {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.header-nav__button {
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.stamp__message {
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 32px;
+}
+
+.stamp__wrapper {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 50px;
+    padding-top: 30px;
+}
+
+.stamp__button button {
+    padding: 75px 165px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.stamp__content-left {
+    margin-right: 40px;
+}
+
+.stamp__start-time,
+.stamp__end-time,
+.stamp__break-start,
+.stamp__break-end {
+    display: block;
+    width: 100%;
+    padding: 12px 24px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #000;
+    background-color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

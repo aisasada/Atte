@@ -1,0 +1,75 @@
+.header-nav {
+    display: flex;
+}
+
+.header-nav__item {
+    margin: 0 0 0 50px;
+}
+
+.header-nav__link {
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.header-nav__button {
+    border: none;
+    background-color: #fff;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.date {
+    display: flex;
+    justify-content: center;
+    margin: 25px 0 50px;
+}
+
+.date form #prev,#next{
+    width: 40px;
+    height: 25px;
+    border-color: #0c7ce4;
+    font-size: 20px;
+    color: #0c7ce4;
+}
+
+.date form #prev:hover{
+    color: #fff;
+    background-color: #0c7ce4;
+}
+
+.date form #next:hover {
+    color: #fff;
+    background-color: #0c7ce4;
+}
+
+.date__today{
+    font-size: x-large;
+    margin: 0 40px;
+}
+
+.attendance__table {
+    margin: 30px auto;
+    width: 80%;
+    text-align: left;
+}
+
+.attendance__table-inner {
+    width: 100%;
+}
+
+.attendance__table-row {
+    border-top: 1px solid #ddd;
+}
+
+.attendance__table-header {
+    padding: 12px;
+    width: 20%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.attendance__table-item:first-of-type {
+    padding: 12px;
+    width: 90%;
+}
